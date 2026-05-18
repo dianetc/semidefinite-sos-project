@@ -1,0 +1,13 @@
+ensemble,n,d,degree,seed,basis_size_m,generator_type,cone,solver,status,value,solve_time,wall_time,error
+easy_dsos,2,2,4,0,6,easy_dsos_dd_gram,dsos,CLARABEL,optimal,1.501158918050183,0.000282052,0.046401469968259335,
+easy_dsos,2,2,4,0,6,easy_dsos_dd_gram,sdsos,CLARABEL,optimal,1.5295083570876613,0.000620542,0.06009291496593505,
+easy_dsos,2,2,4,0,6,easy_dsos_dd_gram,sos,CLARABEL,optimal,1.5295095382418205,0.000407398,0.014060345012694597,
+easy_dsos,2,2,4,1,6,easy_dsos_dd_gram,dsos,CLARABEL,optimal,1.593140121737525,0.000301248,0.043551723938435316,
+easy_dsos,2,2,4,1,6,easy_dsos_dd_gram,sdsos,CLARABEL,optimal,1.600026478971346,0.000594077,0.05986004206351936,
+easy_dsos,2,2,4,1,6,easy_dsos_dd_gram,sos,CLARABEL,optimal,1.6000270057573753,0.000321539,0.01336662599351257,
+easy_dsos,3,2,4,0,10,easy_dsos_dd_gram,dsos,CLARABEL,optimal,1.8663647400676804,0.000664,0.13663505902513862,
+easy_dsos,3,2,4,0,10,easy_dsos_dd_gram,sdsos,CLARABEL,optimal,1.8879836118567468,0.001715155,0.16549394407775253,
+easy_dsos,3,2,4,0,10,easy_dsos_dd_gram,sos,CLARABEL,optimal,1.887984396875302,0.000989838,0.027870532940141857,
+easy_dsos,3,2,4,1,10,easy_dsos_dd_gram,dsos,CLARABEL,optimal,1.4881079182856893,0.000684137,0.11650955304503441,
+easy_dsos,3,2,4,1,10,easy_dsos_dd_gram,sdsos,CLARABEL,optimal,1.5080610369307037,0.001806385,0.16557091404683888,
+easy_dsos,3,2,4,1,10,easy_dsos_dd_gram,sos,CLARABEL,optimal,1.5080620267049392,0.000894187,0.04962229693774134,

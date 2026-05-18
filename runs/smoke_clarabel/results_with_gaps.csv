@@ -1,0 +1,13 @@
+ensemble,n,d,degree,seed,basis_size_m,generator_type,cone,solver,status,value,solve_time,wall_time,error,is_success,is_reliable_success,finite_value,sos_best_value,gap_to_sos_best,rel_gap_to_sos_best
+hard_sos,2,2,4,0,6,hard_sos_random_psd_gram,dsos,CLARABEL,infeasible,-inf,0.000630164,0.07669048197567463,,False,False,,0.13356823602446713,,
+hard_sos,2,2,4,0,6,hard_sos_random_psd_gram,sdsos,CLARABEL,optimal,-694.2488907512202,0.001711532,0.09801831399090588,,True,True,-694.2488907512202,0.13356823602446713,694.3824589872446,694.3824589872446
+hard_sos,2,2,4,0,6,hard_sos_random_psd_gram,sos,CLARABEL,optimal,0.13356823602446713,0.000792842,0.021174677996896207,,True,True,0.13356823602446713,0.13356823602446713,0.0,0.0
+hard_sos,2,2,4,1,6,hard_sos_random_psd_gram,dsos,CLARABEL,infeasible,-inf,0.00054397,0.07026596204377711,,False,False,,0.017193560585397647,,
+hard_sos,2,2,4,1,6,hard_sos_random_psd_gram,sdsos,CLARABEL,infeasible,-inf,0.001543666,0.09586948005016893,,False,False,,0.017193560585397647,,
+hard_sos,2,2,4,1,6,hard_sos_random_psd_gram,sos,CLARABEL,optimal,0.017193560585397647,0.00073363,0.02119579806458205,,True,True,0.017193560585397647,0.017193560585397647,0.0,0.0
+hard_sos,3,2,4,0,10,hard_sos_random_psd_gram,dsos,CLARABEL,infeasible,-inf,0.001312053,0.20604152302257717,,False,False,,0.0535615856661635,,
+hard_sos,3,2,4,0,10,hard_sos_random_psd_gram,sdsos,CLARABEL,infeasible,-inf,0.004153171,0.2526611080393195,,False,False,,0.0535615856661635,,
+hard_sos,3,2,4,0,10,hard_sos_random_psd_gram,sos,CLARABEL,optimal,0.0535615856661635,0.002086087,0.04386857699137181,,True,True,0.0535615856661635,0.0535615856661635,0.0,0.0
+hard_sos,3,2,4,1,10,hard_sos_random_psd_gram,dsos,CLARABEL,infeasible,-inf,0.001351056,0.18395747896283865,,False,False,,0.17728612697417714,,
+hard_sos,3,2,4,1,10,hard_sos_random_psd_gram,sdsos,CLARABEL,infeasible,-inf,0.004392296,0.25575010699685663,,False,False,,0.17728612697417714,,
+hard_sos,3,2,4,1,10,hard_sos_random_psd_gram,sos,CLARABEL,optimal,0.17728612697417714,0.002060061,0.06484704092144966,,True,True,0.17728612697417714,0.17728612697417714,0.0,0.0

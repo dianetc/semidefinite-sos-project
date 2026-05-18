@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{ccc cc cc c}
+\toprule
+& & & \multicolumn{2}{c}{Fixed SDSOS} & \multicolumn{2}{c}{SOS-basis SDSOS} & SOS \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+\(n\) & \(d\) & \(m\) & Succ. & Gap & Succ. & Gap & Succ. \\
+\midrule
+2 & 2 & 6 & 0.60 & 1.3e+04 & 1.00 & 1.9e-07 & 1.00 \\
+3 & 2 & 10 & 0.00 & -- & 0.90 & 1.5e-07 & 1.00 \\
+4 & 2 & 15 & 0.00 & -- & 0.60 & 2.1e-07 & 1.00 \\
+2 & 3 & 10 & 0.50 & 1.3e+05 & 0.90 & 1.6e-07 & 1.00 \\
+3 & 3 & 20 & 0.00 & -- & 0.50 & 2.4e-07 & 1.00 \\
+\bottomrule
+\end{tabular}
+\caption{
+Initialization-bottleneck diagnostic on the generic SOS ensemble. 
+Fixed SDSOS solves the problem in the monomial basis. 
+SOS-basis SDSOS first solves the SOS relaxation, factors the SOS Gram matrix, and then re-solves SDSOS in the induced basis. 
+This is an oracle diagnostic rather than a practical algorithm, since the basis is obtained from the SDP solution. 
+The comparison tests whether SDSOS failure is partly caused by a poor initial basis.
+}
+\label{tab:initialization-bottleneck}
+\end{table}
