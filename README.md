@@ -25,3 +25,7 @@ Outputs:
 Notes:
 - The first-pass generator uses known-SOS random Gram instances, avoiding the problem that arbitrary random even-degree polynomials can be unbounded below.
 - Use MOSEK if available; CLARABEL and SCS are useful for solver-sensitivity experiments but may be less stable on hard SDP instances.
+
+## Presentation
+
+See [semidefinite_project_slides.pdf](semidefinite_project_slides.pdf) for the project presentation slides.
